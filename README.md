@@ -200,9 +200,3 @@ You should see in your terminal a message indicating that the server is listenin
 6. Retrieve Stars owned by me
     ![Request: http://localhost:8000/blocks/<WALLET_ADDRESS>](https://s3.amazonaws.com/video.udacity-data.com/topher/2019/April/5ca362b9_retrieve-stars/retrieve-stars.png)
 
-Genesis block screen shot:screenshoot\block0.PNG
-Sign message and Validation:screenshoot\new sign.PNG,screenshoot\messageValidation.PNG
-Submit star:screenshoot\submit star.PNG
-Validate Chain:screenshoot\validatechains.PNG
-Get All data:screenshoot\getAlldata.PNG
-Get all data by hash:screenshoot\byhash.PNG
