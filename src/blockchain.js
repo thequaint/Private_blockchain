@@ -131,7 +131,7 @@ class Blockchain {
         var verify=bitcoinMessage.verify(message, address, signature);
         console.log(time);
         return new Promise(async (resolve, reject) => {
-            if( verify==true ){
+            if( time<=300 && verify==true ){
                 var block=new BlockClass.Block({data:{"star":star,"owner":address}});
                 
                 let addblock=await this._addBlock(block);
